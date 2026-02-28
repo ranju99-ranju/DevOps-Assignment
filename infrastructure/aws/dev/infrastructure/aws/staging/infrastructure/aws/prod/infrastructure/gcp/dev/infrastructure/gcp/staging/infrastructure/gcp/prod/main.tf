@@ -1,11 +1,12 @@
-resource "google_compute_instance_group_manager" "prod_group" {
-  name               = "prod-group"
-  base_instance_name = "prod-instance"
-  zone               = "asia-south1-a"
+provider "aws" {
+  region = "ap-south-1"
+}
 
-  version {
-    instance_template = "prod-template"
+resource "aws_instance" "dev_instance" {
+  ami           = "ami-12345678"
+  instance_type = "t2.micro"
+
+  tags = {
+    Environment = "dev"
   }
-
-  target_size = 2
 }
