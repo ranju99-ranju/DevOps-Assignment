@@ -60,12 +60,3 @@ Future Improvements
 	•	Kubernetes-based container orchestration
 	•	Web Application Firewall integration
 
-⸻
-
-What Was Intentionally Not Implemented
-	•	Kubernetes (overkill for this simple application)
-	•	Multi-region failover
-	•	Blue-green deployments
-	•	Advanced security hardening
-
-The focus was on foundational and scalable infrastructure design within time constraints.
