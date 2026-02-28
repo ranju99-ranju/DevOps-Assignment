@@ -59,4 +59,13 @@ Future Improvements
 	•	CI/CD automation pipeline
 	•	Kubernetes-based container orchestration
 	•	Web Application Firewall integration
+	
+11. What Was Intentionally Not Implemented
+	•	Kubernetes (overkill for this application)
+	•	Multi-region failover
+	•	CI/CD automation pipeline
+	•	Web Application Firewall
+
+Reason:
+Focused on foundational infrastructure clarity within assignment constraints.	
 
